@@ -9,7 +9,7 @@ The encoder uses the pre-trained ResNet-50 architecture (with the final fully-co
 
 ![Encoder](images/encoder.png)
 
-The decoder uses a simple LSTM model to process the input vector from the encoder
+The decoder uses a LSTM model to process the input vector from the encoder
 ![Decoder](images/decoder.png)
 
 The model was trained for 3 epochs with parameter values obtained from [this paper](https://arxiv.org/pdf/1502.03044.pdf) and [this paper](https://arxiv.org/pdf/1411.4555.pdf). 
